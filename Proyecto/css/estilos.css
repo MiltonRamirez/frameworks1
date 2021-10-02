@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: #007c25;
+    text-align: center;
+    font-size: 16px;
+    color: #030303;
+    padding: 10 px 0px;
+
+}
+
+select{
+    display: block;
+    margin: 0 auto;
+}
+
+section{
+    background-color: #2ec2e7;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.contenedor{
+    width: 300px;
+    border: solid 1px #080808;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    display: none;
+
+}
+
+
+.res{
+    width: 80%;
+    line-height: 25px;
+    border: solid 1px #000000;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+input[type="text"], input[type="number"]{
+    width: 80%;
+    padding: 10px;
+    display: block;
+    margin: 5px auto;
+}
+
+input[type="button"], a, span{
+    width: 30%;
+    padding: 5px;
+    display: block;
+    margin: 10px auto;
+    background-color: #c2ee00;
+    color: #000000;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="button"]:active, a:active, span:active{
+    top:1px;
+    background-color: #ffff;
+    color:#1378a7;
+}
+
+#estilos div{
+    width: 30px;
+    height: 30px;
+    border: solid 1px #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+
+.verde{
+    background-color: #00ee47;
+}
+
+.azul{
+    background-color: #0097ee;
+}
+
+.todo{
+    background-color: #ee5f00;
+    border: solid 4px #ee009f;
+    border-radius: 10px 0px;
+}
+
+
+.nada{
+    border: solid 1px #ffffff;
+}
+
+footer{
+    background-color: #08b984;
+}
+
+.foto{
+    margin: 10px auto;
+    width: 200px;
+    box-shadow: 2px 2px 2px #000;
+    border: solid 1px #00ee47;
+    display: block;
+}
+
+.galeria{
+    display: inline-block;
+    width: 50px;
+}
+
+
+
+
+
+

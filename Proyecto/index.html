@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Temas de JS </title>
+    
+</head>
+<body>
+    <header>
+        <h1>¡Javasscript!</h1>
+    </header>
+    <section>
+        <select id="temas">
+            <option value="0" selected>Seleccione...</option>></option>
+            <option value="si">Aumentos IF</option>
+            <option value="whi">Multiplicacion WHILE</option>
+            <option value="fo">Serie FOR</option>
+            <option value="swi">Tipos de Bomba SWITCH</option>
+            <option value="datos">Datos Personales OBJETO</option>
+            <option value="encuesta">Encuesta</option>
+            <option value="cua">Cajas</option>
+         
+        </select>
+
+        <article id="si" class="contenedor">
+            <h2>Aumentos</h2>
+            <input type="text" name="" id="n1" placeholder="años trabajando en la empresa">
+            <input type="button" value="Calcular" id="aumento">
+        </article>
+
+        <article id="whi" class="contenedor">
+            <h2>Multiplicacion WHILE</h2>
+            <input type="text" name="" id="n2" placeholder="Introduce un numero">
+            <input type="text" name="" id="n3" placeholder="Introduce otro numero">
+            <input type="button" value="Calcular Operaciones" id="multiplica">
+        </article>
+
+        <article id="fo" class="contenedor">
+            <h2>Serie FOR</h2>
+            <input type="text" name="" id="n4" placeholder="Introduce un numero">
+            <input type="text" name="" id="n5" placeholder="Introduce un numero MAYOR al primero">
+            <input type="button" value="Muestrar Serie" id="muestra">
+            <input type="text" name="" id="res" placeholder="Resultado" disabled>
+        </article>
+
+        <article id="swi" class="contenedor">
+            <h2>Tipos de Bomba SWITCH</h2>
+            <br>
+            <h3>*Los tipos de bomba van del 0 - 4*</h3>
+            <input type="text" name="" id="n6" placeholder="Introduce el tipo de Bomba ">
+            <input type="button" value="Mostrar Tipo de Bomba" id="mostrar">
+        </article>
+
+        <article id="datos" class="contenedor">
+            <h3>Datos Personales OBJETO</h3>
+            <input type="text" name="" id="" class="texto" placeholder="Nombre">
+            <input type="text" name="" id="" class="texto" placeholder="Apellido">
+            <input type="text" name="" id="" class="texto" placeholder="Numero Telefonico">
+            <input type="button" value="Ingresar" id="dato">
+        </article>
+
+        <article id="encuesta" class="contenedor">
+            <h2>Encuesta Peliculas y Cine</h2><br><br>
+            <figure>
+                   
+                <h2>Género Preferido</h2>
+            </figure>
+            <form action="" method="post" target="_blank" id="resp">
+                
+                <input type="radio" value="Terror" name="opciones" id="r1"><label > Terror</label><br>
+                <input type="radio" value="Acción" name="opciones" id="r2"><label > Acción</label><br>
+                <input type="radio" value="Comedia" name="opciones" id="r3"><label> Comedia</label ><br>
+                
+            </form>
+
+            <figure>
+               
+                <h2>Director Preferido</h2>
+            </figure>
+            <form action="" method="post" target="_blank" id="respe">
+                
+                <input type="radio" value="martin scorsese" name="opciones" id="r4"><label > martin scorsese</label><br>
+                <input type="radio" value="Quentin Tarantino" name="opciones" id="r5"><label >Quentin Tarantino</label><br>
+                <input type="radio" value="christopher nolan" name="opciones" id="r6"><label> christopher nolan</label ><br>
+                
+            </form>
+
+            <figure>
+               
+                <h2>¿Qué tipo de cine disfrutas más?</h2>
+            </figure>
+            <form action="" method="post" target="_blank" id="respet">
+                
+                <input type="radio" value="Nacional" name="opciones" id="r7"><label > Nacional</label><br>
+                <input type="radio" value="Extranjero" name="opciones" id="r8"><label > Extranjero</label><br>
+                <input type="radio" value="Es indiferente" name="opciones" id="r9"><label> Es indiferente</label ><br>
+                
+            </form>
+
+            <figure>
+               
+                <h2>¿Donde prefieres ver peliculas?</h2>
+            </figure>
+            <form action="" method="post" target="_blank" id="respets">
+                
+                <input type="radio" value="Cine" name="opciones" id="r10"><label > Cine</label><br>
+                <input type="radio" value="Desde casa" name="opciones" id="r11"><label > Desde casa</label><br>
+                <input type="radio" value="Cualquiera" name="opciones" id="r12"><label> Cualquiera</label ><br>
+                
+            </form>
+
+            <figure>
+               
+                <h2>¿Qué disfrutas ver más?</h2>
+            </figure>
+            <form action="" method="post" target="_blank" id="respetsa">
+                
+                <input type="radio" value="Peliculas" name="opciones" id="r13"><label > Peliculas</label><br>
+                <input type="radio" value="Series" name="opciones" id="r14"><label > Series</label><br>
+                <input type="radio" value="Caricaturas/Anime" name="opciones" id="r15"><label> Caricaturas/Anime</label ><br>
+                
+            </form>
+            <input type="button" value="Ver mis respuestas" id="mostrar" onclick="RRssdd()" />
+
+
+        </article>
+
+        <article id="cua" class="contenedor">
+            <h2>Cajas</h2>
+            <input type="text" name="" id="cu" placeholder="Cuantos cuadros quieres?">
+            <h1>Escoge un color</h1>
+            <input type="color" id="bg">
+            <input type="button" value="Mostrar" id="crear">
+        </article>
+
+        <p id="resultado" class="res">Seleccione una opción</p>
+    </section>
+    <footer>Elaborado por MAVR</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
